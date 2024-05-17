@@ -165,12 +165,17 @@ td, th {
 	clear: left;
 }
 
+.titulo-principal::first-letter{
+font-weight: bold;
+}
+s
 .principal {
 	padding: 3em 0;
 	background: #FEFEFE;
 	width: 940px;
 	margin: 0 auto;
 }
+
 
 .principal p {
 	margin: 0 0 1em;
@@ -230,7 +235,7 @@ td, th {
 }
 
 .itens:before {
-	content: "🟊";
+	content: "✢";
 }
 
 .imagem-beneficios {
